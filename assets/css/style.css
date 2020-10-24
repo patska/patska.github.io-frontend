@@ -1,0 +1,89 @@
+html body {
+    background-color: #00ff5f;
+    font-family: 'Courier New';
+}
+.title {
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.social-group {
+    align-items: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 1% 20% 0;
+
+    height: 40pt;
+}
+.social-item {
+    height: auto;
+    font-weight: 300;
+}
+
+.social-item {
+    text-decoration: none;
+    color: black;
+  }
+
+.social-item:hover {
+    color: #B300AF;
+}
+
+.container {
+    border-style: solid;
+    border-width: 2px;
+    margin: 0 10%;
+    height: 700px;
+    background-color: white;
+}
+
+.post-container {
+    margin: 2% 20% 2%; 
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 120px 30px auto;
+}
+
+.category-title{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.austria {
+    background: url('../icon/1F1E6-1F1F9.svg');
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+.brazil {
+    background: url('../icon/1F1E7-1F1F7.svg');
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.spain {
+    background: url('../icon/1F1EA-1F1F8.svg');
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+.usa {
+    background: url('../icon/1F1FA-1F1F8.svg');
+    height: 20px;
+    width: 20px;
+    display: block;
+}
+
+footer {
+    margin: 1% 10% 0;
+    font-size: 12px;
+    font-weight: bold;
+}
